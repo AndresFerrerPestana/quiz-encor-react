@@ -67,10 +67,10 @@ npm run dev
 
 ## 📄 Licença / License
 
-MIT © [Andrés Ferrer](https://github.com/AndresFerrerPestana)
-
 💡 Nota:
 Esta é uma versão pública e simplificada do projeto. Uma versão profissional está em desenvolvimento.
 
 💡 Note:
 This is a public and simplified version of the project. A professional version is under development.
+
+MIT © [Andrés Ferrer](https://github.com/AndresFerrerPestana)
