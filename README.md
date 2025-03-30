@@ -1,102 +1,69 @@
-# 🧠 ENCOR Quiz App
+# ⚡ ENCOR 350-401 React Quiz
 
-A fully interactive quiz application designed to help candidates prepare for the **Cisco ENCOR (350-401)** exam.  
-Built with **React**, **Tailwind CSS**, and **Framer Motion**, it features a modular topic-based structure and supports **bilingual flashcards** (English and European Portuguese).
+Um quiz interactivo para praticar os temas do exame **Cisco CCNP ENCOR 350-401**. Desenvolvido com React, Tailwind CSS e Framer Motion. ✨
 
----
+An interactive quiz to practise topics from the **Cisco CCNP ENCOR 350-401** exam. Built with React, Tailwind CSS, and Framer Motion. ✨
 
-## 🚀 Features
-
-- ✅ Modular structure by official ENCOR topics
-- 🌐 English & Portuguese bilingual questions, answers, and explanations
-- 🎯 Normal Mode & Training Mode (infinite repeat)
-- 📝 Answer explanations after each question
-- 📊 Final score summary with correct/incorrect answers
-- 🔁 Repeat only incorrect answers
-- 💾 Export results to JSON or PDF
-- 🧭 Responsive design and smooth animations
-- 📌 Tooltip-enhanced UI and visual feedback (✅ / ❌)
+🔗 [Ver versão online / Live Demo](https://quiz-encor-react.vercel.app/)
 
 ---
 
-## 📁 Topics Covered
+## 🧠 Funcionalidades / Features
 
-- Routing
-- Switching
-- Wireless
-- Security
-- Automation
-- Architecture
-- Virtualization
-- IP Connectivity
-- Infrastructure
+- 📚 Perguntas por tema (Routing, Switching, Wireless, Security, Automation, etc.)  
+  Questions organised by topic
+- 🇵🇹🇬🇧 Suporte bilingue (Português / Inglês)  
+  Bilingual support (Portuguese / English)
+- 🧪 Dois modos de jogo: Normal e Treino  
+  Two play modes: Normal and Practice
+- ✅ Feedback visual com ícones animados  
+  Visual feedback with animated icons
+- 📝 Explicações após cada resposta  
+  Explanations shown after each answer
+- 📦 Exportação dos resultados em JSON ou PDF  
+  Export results as JSON or PDF
+- 🔁 Repetição de perguntas erradas  
+  Repeat only incorrect questions
+- 📱 Totalmente responsivo  
+  Fully responsive layout
 
 ---
 
-## 🧪 Modes
+## 🛠️ Stack Tecnológica / Tech Stack
 
-- **Normal Mode**: Go through a limited set of questions and view your score at the end
-- **Training Mode**: Questions loop infinitely, ideal for practice
+- React + Vite ⚛️⚡
+- Tailwind CSS 🎨
+- Framer Motion 🎞️
+- Heroicons
+- jsPDF
+- Vercel (deploy)
 
 ---
 
-## 🖥️ Getting Started
+## 📸 Capturas de ecrã / Screenshots
 
-### 1. Clone the repository
+(Adiciona aqui imagens do quiz em funcionamento / Add screenshots of the running quiz)
+
+---
+
+## 🚀 Instalação local / Local Installation
 
 ```bash
-git clone https://github.com/your-username/encor-quiz-app.git
-cd encor-quiz-app
-```
-
-### 2. Install dependencies
-
-```bash
+git clone https://github.com/AndresFerrerPestana/quiz-encor-react.git
+cd quiz-encor-react
 npm install
-```
-
-### 3. Run the development server
-
-```bash
 npm run dev
 ```
 
-Then open [http://localhost:5173](http://localhost:5173) in your browser.
+---
+
+## 🤝 Contribuições / Contributions
+
+🇵🇹 Queres contribuir? Envia um pull request com melhorias ou correcções. Todas as sugestões são bem-vindas!  
+🇬🇧 Want to contribute? Submit a pull request with improvements or fixes. All suggestions are welcome!
 
 ---
 
-## 📦 Build for production
+## 📄 Licença / License
 
-```bash
-npm run build
-```
-
----
-
-## 📌 Tech Stack
-
-- **React**
-- **Tailwind CSS**
-- **Framer Motion**
-- **Heroicons**
-- **jsPDF**
-
----
-
-## 📂 Folder Structure
-
-```
-src/
-├── components/      → Reusable React components
-├── data/
-│   └── questions/   → Organized question sets by topic
-├── assets/          → Icons and images
-├── App.jsx          → Entry component
-├── main.jsx         → App entry point
-```
-
----
-
-## 📄 License
-
-MIT © 2025 – [Andrés Ferrer]
+MIT © [Andrés Pestana](https://github.com/AndresFerrerPestana)
