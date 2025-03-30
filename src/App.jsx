@@ -1,7 +1,5 @@
 import Quiz from "./Quiz";
 
-function App() {
+export default function App() {
   return <Quiz />;
 }
-
-export default App;
