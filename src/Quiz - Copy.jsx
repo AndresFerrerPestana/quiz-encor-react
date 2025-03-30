@@ -239,30 +239,14 @@ export default function Quiz() {
               />
             )}
 
-            {mode === "practice" && current === questions.length - 1 ? (
-              <div className="mt-6 text-center">
-                <p className="text-lg font-medium mb-4">
-                  {language === "pt"
-                    ? `Concluíste o ciclo com ${score} de ${questions.length} corretas.`
-                    : `You completed the cycle with ${score} out of ${questions.length} correct.`}
-                </p>
-                <button
-                  onClick={handleRestart}
-                  className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
-                >
-                  {language === "pt" ? "Recomeçar ciclo" : "Restart Cycle"}
-                </button>
-              </div>
-            ) : (
-              <div className="mt-6 flex justify-center">
-                <button
-                  onClick={handleNext}
-                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-                >
-                  {language === "pt" ? "Próxima Pergunta" : "Next Question"}
-                </button>
-              </div>
-            )}
+            <div className="mt-6 flex justify-center">
+              <button
+                onClick={handleNext}
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+              >
+                {language === "pt" ? "Próxima Pergunta" : "Next Question"}
+              </button>
+            </div>
           </>
         )}
 
