@@ -1,128 +1,177 @@
 export const security = [
-    {
-      question: {
-        pt: "Qual é o propósito principal de uma ACL em redes Cisco?",
-        en: "What is the primary purpose of an ACL in Cisco networks?"
-      },
-      options: {
-        pt: [
-          "Criar VLANs",
-          "Filtrar tráfego com base em critérios definidos",
-          "Realizar NAT",
-          "Aumentar a largura de banda"
-        ],
-        en: [
-          "Create VLANs",
-          "Filter traffic based on defined criteria",
-          "Perform NAT",
-          "Increase bandwidth"
-        ]
-      },
-      answer: 1,
-      explanation: {
-        pt: "As ACLs (Access Control Lists) permitem filtrar o tráfego com base em IP, portas, protocolos, etc.",
-        en: "ACLs (Access Control Lists) allow traffic filtering based on IP, ports, protocols, etc."
-      }
+  {
+    question: {
+      en: "What is the purpose of AAA in network security?",
+      pt: "Qual é o propósito do AAA na segurança de redes?",
     },
-    {
-      question: {
-        pt: "O que faz o protocolo 802.1X numa rede?",
-        en: "What does the 802.1X protocol do in a network?"
-      },
-      options: {
-        pt: [
-          "Encaminha pacotes multicast",
-          "Autentica dispositivos em portas de switch",
-          "Define rotas dinâmicas",
-          "Agrupa interfaces físicas"
-        ],
-        en: [
-          "Routes multicast packets",
-          "Authenticates devices on switch ports",
-          "Defines dynamic routes",
-          "Bonds physical interfaces"
-        ]
-      },
-      answer: 1,
-      explanation: {
-        pt: "O 802.1X fornece autenticação baseada em portas, permitindo controlar o acesso à rede.",
-        en: "802.1X provides port-based authentication, allowing control over network access."
-      }
+    options: {
+      en: [
+        "To provide Authentication, Authorization, and Accounting for users accessing network resources.",
+        "To encrypt data end-to-end.",
+        "To block all unauthorised access automatically.",
+        "To configure VLANs across routers.",
+      ],
+      pt: [
+        "Fornecer Autenticação, Autorização e Contabilização dos utilizadores que acedem aos recursos da rede.",
+        "Encriptar dados de ponta a ponta.",
+        "Bloquear automaticamente todos os acessos não autorizados.",
+        "Configurar VLANs entre routers.",
+      ],
     },
-    {
-      question: {
-        pt: "Qual destas opções é um exemplo de ataque de engenharia social?",
-        en: "Which of the following is an example of a social engineering attack?"
-      },
-      options: {
-        pt: [
-          "DDoS",
-          "Phishing",
-          "Man-in-the-middle",
-          "Sniffing"
-        ],
-        en: [
-          "DDoS",
-          "Phishing",
-          "Man-in-the-middle",
-          "Sniffing"
-        ]
-      },
-      answer: 1,
-      explanation: {
-        pt: "Phishing tenta enganar o utilizador para obter informações sensíveis, explorando a confiança humana.",
-        en: "Phishing tricks users into revealing sensitive information, exploiting human trust."
-      }
+    answer: 0,
+    explanation: {
+      en: "AAA stands for Authentication, Authorization and Accounting, ensuring access control and auditing.",
+      pt: "AAA significa Autenticação, Autorização e Contabilização, garantindo controlo de acesso e auditoria.",
     },
-    {
-      question: {
-        pt: "O que é uma VPN site-to-site?",
-        en: "What is a site-to-site VPN?"
-      },
-      options: {
-        pt: [
-          "Uma VPN para dispositivos móveis",
-          "Uma ligação segura entre dois locais da mesma organização",
-          "Uma rede virtual entre switches",
-          "Um túnel GRE sobre MPLS"
-        ],
-        en: [
-          "A VPN for mobile devices",
-          "A secure connection between two locations of the same organisation",
-          "A virtual network between switches",
-          "A GRE tunnel over MPLS"
-        ]
-      },
-      answer: 1,
-      explanation: {
-        pt: "Uma VPN site-to-site cria um túnel seguro entre dois locais distintos através da Internet.",
-        en: "A site-to-site VPN creates a secure tunnel between two distinct locations over the Internet."
-      }
+  },
+  {
+    question: {
+      en: "What are the three components of AAA?",
+      pt: "Quais são os três componentes do AAA?",
     },
-    {
-      question: {
-        pt: "Qual comando é usado para aplicar uma ACL a uma interface em Cisco IOS?",
-        en: "Which command is used to apply an ACL to an interface in Cisco IOS?"
-      },
-      options: {
-        pt: [
-          "access-class",
-          "ip access-group",
-          "access-control",
-          "set acl"
-        ],
-        en: [
-          "access-class",
-          "ip access-group",
-          "access-control",
-          "set acl"
-        ]
-      },
-      answer: 1,
-      explanation: {
-        pt: "O comando 'ip access-group' aplica uma ACL a uma interface de entrada ou saída.",
-        en: "The 'ip access-group' command applies an ACL to an inbound or outbound interface."
-      }
-    }
-  ];
-  
+    options: {
+      en: [
+        "Authentication, Authorization, Accounting",
+        "Access, Alert, Assignment",
+        "Allow, Audit, Action",
+        "Application, Agreement, Accounting",
+      ],
+      pt: [
+        "Autenticação, Autorização, Contabilização",
+        "Acesso, Alerta, Atribuição",
+        "Permitir, Auditar, Ação",
+        "Aplicação, Acordo, Contabilização",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "AAA stands for Authentication, Authorization, and Accounting — the three pillars of access control.",
+      pt: "AAA representa Autenticação, Autorização e Contabilização — os três pilares do controlo de acesso.",
+    },
+  },
+  {
+    question: {
+      en: "What is 802.1X and where is it used?",
+      pt: "O que é o 802.1X e onde é utilizado?",
+    },
+    options: {
+      en: [
+        "A network access control protocol used to authenticate devices before granting access to the LAN.",
+        "A routing protocol for IPv6 networks.",
+        "A switching method for VLAN tagging.",
+        "A firewall rule standard.",
+      ],
+      pt: [
+        "Um protocolo de controlo de acesso à rede usado para autenticar dispositivos antes de permitir o acesso à LAN.",
+        "Um protocolo de encaminhamento para redes IPv6.",
+        "Um método de comutação para tagging de VLAN.",
+        "Um padrão de regras de firewall.",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "802.1X is used for port-based network access control, authenticating devices before granting access.",
+      pt: "O 802.1X é usado para controlo de acesso à rede baseado em portas, autenticando os dispositivos antes de conceder acesso.",
+    },
+  },
+  {
+    question: {
+      en: "What is the function of a RADIUS server?",
+      pt: "Qual é a função de um servidor RADIUS?",
+    },
+    options: {
+      en: [
+        "It authenticates users and authorises access to network services based on credentials.",
+        "It switches traffic between VLANs.",
+        "It performs NAT translation.",
+        "It provides DNS resolution.",
+      ],
+      pt: [
+        "Autentica utilizadores e autoriza o acesso a serviços de rede com base em credenciais.",
+        "Comuta tráfego entre VLANs.",
+        "Realiza tradução NAT.",
+        "Fornece resolução DNS.",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "A RADIUS server centralises authentication and authorization based on user credentials.",
+      pt: "Um servidor RADIUS centraliza a autenticação e a autorização com base nas credenciais dos utilizadores.",
+    },
+  },
+  {
+    question: {
+      en: "What is the difference between standard and extended ACLs?",
+      pt: "Qual é a diferença entre ACLs standard e ACLs extendidas?",
+    },
+    options: {
+      en: [
+        "Standard ACLs filter traffic based on source IP only; extended ACLs filter based on source, destination, protocol, and port.",
+        "Standard ACLs are used for IPv6; extended ACLs for IPv4.",
+        "Extended ACLs are deprecated.",
+        "There is no difference.",
+      ],
+      pt: [
+        "As ACLs standard filtram com base apenas no IP de origem; as ACLs extendidas filtram por IP de origem, destino, protocolo e porta.",
+        "As ACLs standard são usadas para IPv6; as extendidas para IPv4.",
+        "As ACLs extendidas estão obsoletas.",
+        "Não há diferença.",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "Standard ACLs match only source IP, while extended ACLs offer more granular control.",
+      pt: "As ACLs standard filtram apenas por IP de origem, enquanto as ACLs extendidas oferecem controlo mais granular.",
+    },
+  },
+  {
+    question: {
+      en: "What is port security on a switch?",
+      pt: "O que é a segurança de portas (port security) num switch?",
+    },
+    options: {
+      en: [
+        "A feature that restricts access to a switch port based on MAC addresses.",
+        "A feature that disables unused ports automatically.",
+        "A method of VLAN allocation.",
+        "A way to configure DHCP snooping.",
+      ],
+      pt: [
+        "Uma funcionalidade que restringe o acesso a uma porta do switch com base em endereços MAC.",
+        "Uma funcionalidade que desativa automaticamente portas não utilizadas.",
+        "Um método de atribuição de VLAN.",
+        "Uma forma de configurar DHCP snooping.",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "Port security allows only specific MAC addresses to use a switch port, improving security.",
+      pt: "A segurança de portas permite que apenas endereços MAC específicos utilizem uma porta do switch, melhorando a segurança.",
+    },
+  },
+  {
+    question: {
+      en: "What is control plane policing (CoPP)?",
+      pt: "O que é o controlo de policiamento do plano de controlo (CoPP)?",
+    },
+    options: {
+      en: [
+        "It limits traffic sent to the control plane to protect the router from attacks or overload.",
+        "It manages NAT translations in high-speed interfaces.",
+        "It enforces QoS policies on user data.",
+        "It detects routing loops in STP.",
+      ],
+      pt: [
+        "Limita o tráfego enviado ao plano de controlo para proteger o router de ataques ou sobrecarga.",
+        "Gere traduções NAT em interfaces de alta velocidade.",
+        "Aplica políticas de QoS aos dados dos utilizadores.",
+        "Deteta loops de encaminhamento no STP.",
+      ],
+    },
+    answer: 0,
+    explanation: {
+      en: "CoPP protects the control plane of a router by filtering and rate-limiting traffic.",
+      pt: "O CoPP protege o plano de controlo de um router ao filtrar e limitar o tráfego.",
+    },
+  },
+];
