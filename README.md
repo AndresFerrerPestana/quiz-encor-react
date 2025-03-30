@@ -42,7 +42,8 @@ An interactive quiz to practise topics from the **Cisco CCNP ENCOR 350-401** exa
 
 ## 📸 Capturas de ecrã / Screenshots
 
-(Adicionar aqui imagens do quiz em funcionamento, mais tarde adiciono / Add screenshots of the running quiz, later)
+📷 Em breve serão adicionadas capturas de ecrã nesta secção.  
+📷 Screenshots will be added to this section soon.
 
 ---
 
@@ -59,7 +60,7 @@ npm run dev
 
 ## 🤝 Contribuições / Contributions
 
-🇵🇹 Melhorias e sugestões Todas as sugestões são bem-vindas!  
+🇵🇹 Queres contribuir? Envia um pull request com melhorias ou correcções. Todas as sugestões são bem-vindas!  
 🇬🇧 Want to contribute? Submit a pull request with improvements or fixes. All suggestions are welcome!
 
 ---
