@@ -68,6 +68,7 @@ npm run dev
 ## 📄 Licença / License
 
 MIT © [Andrés Ferrer](https://github.com/AndresFerrerPestana)
+
 💡 Nota:
 Esta é uma versão pública e simplificada do projeto. Uma versão profissional está em desenvolvimento.
 
