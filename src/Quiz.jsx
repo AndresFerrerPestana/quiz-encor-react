@@ -229,12 +229,25 @@ export default function Quiz() {
           language={language}
         />
 
-        {isAnswered && questions[current].explanation?.[language] && (
-          <ExplanationBox
-            explanation={questions[current].explanation[language]}
-            language={language}
-            isCorrect={shuffledOptions[selectedAnswer]?.isCorrect}
-          />
+        {isAnswered && !showResult && (
+          <>
+            {questions[current].explanation?.[language] && (
+              <ExplanationBox
+                explanation={questions[current].explanation[language]}
+                language={language}
+                isCorrect={shuffledOptions[selectedAnswer]?.isCorrect}
+              />
+            )}
+
+            <div className="mt-6 flex justify-center">
+              <button
+                onClick={handleNext}
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+              >
+                {language === "pt" ? "Próxima Pergunta" : "Next Question"}
+              </button>
+            </div>
+          </>
         )}
 
         {mode === "normal" && showResult && (
